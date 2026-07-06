@@ -1,0 +1,14 @@
+{
+  "total_records": 629,
+  "valid_records": 629,
+  "invalid_records": 0,
+  "warning_count": 410,
+  "warnings_by_type": {
+    "missing_names": 197,
+    "empty_themes": 213
+  },
+  "recommendations": [
+    "Use category-aware generated labels for unnamed OSM features.",
+    "Review theme rules for categories that are not currently mapped."
+  ]
+}

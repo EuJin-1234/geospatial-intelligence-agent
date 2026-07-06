@@ -1,0 +1,7 @@
+{
+  "food": ["cafe", "restaurant", "fast_food", "bar", "pub"],
+  "transport": ["bus_station", "public_transport", "bicycle_parking", "parking"],
+  "study": ["library", "university", "school", "cafe"],
+  "outdoor": ["park", "garden", "sports_centre"],
+  "social": ["cafe", "restaurant", "fast_food", "pub", "bar"]
+}

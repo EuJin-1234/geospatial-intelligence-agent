@@ -1,0 +1,58 @@
+[project]
+name = "geospatial-intelligence-agent"
+version = "0.1.0"
+description = "GeoInsight Agent: a geospatial AI analytics and recommendation system."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "osmnx",
+    "geopandas",
+    "shapely",
+    "pandas",
+    "numpy",
+    "pydantic>=2",
+    "sentence-transformers",
+    "faiss-cpu",
+    "folium",
+    "typer",
+    "rich",
+    "requests",
+    "python-dotenv",
+    "langgraph",
+    "streamlit",
+    "streamlit-folium",
+    "matplotlib",
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "black", "httpx"]
+edge = [
+    "onnxruntime",
+    "optimum[onnxruntime]",
+]
+
+[project.scripts]
+geoinsight = "geoinsight.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]

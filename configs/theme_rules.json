@@ -1,0 +1,23 @@
+{
+  "study": {
+    "categories": ["library", "university", "school"],
+    "soft_categories": ["cafe"],
+    "keywords": ["study", "quiet", "work"]
+  },
+  "food": {
+    "categories": ["restaurant", "fast_food", "cafe"],
+    "keywords": ["food", "eat", "lunch", "dinner", "coffee", "cafe"]
+  },
+  "transport": {
+    "categories": ["bus_station", "public_transport", "bicycle_parking"],
+    "keywords": ["bus", "train", "transport", "commute"]
+  },
+  "outdoor": {
+    "categories": ["park", "garden"],
+    "keywords": ["outdoor", "relax", "green", "walk", "park"]
+  },
+  "social": {
+    "categories": ["cafe", "restaurant", "fast_food", "pub", "bar"],
+    "keywords": ["meet", "friend", "friends", "social"]
+  }
+}

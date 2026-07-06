@@ -1,0 +1,47 @@
+[
+  {
+    "query": "Find study-friendly places near campus.",
+    "latency_ms": 5814.3,
+    "strong_matches": 5,
+    "answer_generated": true,
+    "retrieval_coverage": 5,
+    "weak_result_rate": 0.0,
+    "grounded_in_retrieved_records": true
+  },
+  {
+    "query": "Find relaxing outdoor places.",
+    "latency_ms": 4461.04,
+    "strong_matches": 5,
+    "answer_generated": true,
+    "retrieval_coverage": 5,
+    "weak_result_rate": 0.0,
+    "grounded_in_retrieved_records": true
+  },
+  {
+    "query": "Find food options near transport.",
+    "latency_ms": 4556.53,
+    "strong_matches": 5,
+    "answer_generated": true,
+    "retrieval_coverage": 5,
+    "weak_result_rate": 0.0,
+    "grounded_in_retrieved_records": true
+  },
+  {
+    "query": "Summarise the local area.",
+    "latency_ms": 25.03,
+    "strong_matches": 5,
+    "answer_generated": true,
+    "retrieval_coverage": 5,
+    "weak_result_rate": 0.0,
+    "grounded_in_retrieved_records": true
+  },
+  {
+    "query": "Which area is better for studying?",
+    "latency_ms": 4798.02,
+    "strong_matches": 5,
+    "answer_generated": true,
+    "retrieval_coverage": 5,
+    "weak_result_rate": 0.0,
+    "grounded_in_retrieved_records": true
+  }
+]
